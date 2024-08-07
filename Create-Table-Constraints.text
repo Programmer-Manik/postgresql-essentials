@@ -3,3 +3,22 @@ id serial PRIMARY KEY,
 user_name VARCHAR(20) NOT NULL, 
 age INTEGER CHECK(age >= 18)
 )
+
+
+CREATE  TABLE person3 (
+id serial,
+user_name VARCHAR(20) NOT NULL UNIQUE, 
+age INTEGER CHECK(age >= 18),
+PRIMARY KEY(id)
+
+)
+
+
+
+CREATE  TABLE person4 (
+id serial,
+user_name VARCHAR(20), 
+age INTEGER CHECK(age >= 18),
+PRIMARY KEY(id, user_name),
+UNIQUE(user_name, age)
+)
