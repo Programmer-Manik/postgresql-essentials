@@ -1,0 +1,5 @@
+CREATE  TABLE person2 (
+id serial PRIMARY KEY,
+user_name VARCHAR(20) NOT NULL, 
+age INTEGER CHECK(age >= 18)
+)
