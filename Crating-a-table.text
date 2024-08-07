@@ -1,0 +1,19 @@
+
+-- crate table 
+
+CREATE  TABLE person (
+person_id SERIAL,
+first_name VARCHAR(50),
+last_name VARCHAR(50),
+age INTEGER,
+is_acive BOOLEAN,
+dob DATE 
+) 
+
+
+drop table person; // delete table person 
+alter TABLE person reaname to users; // name rename CREATE
+
+drop DATABASE DATABASEName; // drop DATABASE DATABASEName
+
+//code run (ctrl+e) then code run and data show
