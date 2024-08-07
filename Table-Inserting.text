@@ -1,0 +1,6 @@
+INSERT  INTO person2(id, user_name, age)VALUES(1, 'manik', 20)
+
+INSERT  INTO person2 (id, user_name, age)
+VALUES(2, 'mizan', 29), (3, 'john', 29), (4, 'mezba', 50), (5, 'mir', 22)
+
+INSERT  INTO person2  VALUES(6, 'firoz', 20)
