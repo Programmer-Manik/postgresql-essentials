@@ -8,3 +8,5 @@ ALTER TABLE TABLE_NAEM  ACTION;
 4 setting default value for a column 
 5 reName a column
 6 add/drop  constraint for a column
+
+SELECT * FROM person2;
