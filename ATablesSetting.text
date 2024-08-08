@@ -1,0 +1,10 @@
+Alter
+
+ALTER TABLE TABLE_NAEM  ACTION;
+
+1 reName a table 
+2 modify DATA type of a column
+3 add/drop column 
+4 setting default value for a column 
+5 reName a column
+6 add/drop  constraint for a column
